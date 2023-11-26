@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&family=Roboto&display=swap');
+
+/* public*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:85%;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    font-weight:bolder;
+}
+
+/* header*/
+
+header{
+
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+}
+
+header .row{
+padding: 23px 0;
+align-items: center;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    width: 20px;
+}
+
+.logo a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #545BE8;
+}
+
+header ul{
+
+    display: flex;
+    gap: 20px;   
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+
+    font-family: 'Poppins', sans-serif;
+    color: #101928;
+    font-size: 18px;
+   
+    
+}
+
+
+
+
+
+header .buttons{
+
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+header .buttons a{
+    border-radius: 10px;
+    padding: 7px 35px;
+}
+
+header .buttons .login{
+
+    color: #545BE8;
+    border: #545BE8 solid 2px;
+}
+
+header .buttons .reg{
+    color:#FFF;
+    background: #545BE8;
+    border: #545BE8 solid 2px;
+   
+    gap: 20px;
+}
+
+
+
+
+
+
+
